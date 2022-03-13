@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  mysql:
+    build: docker/mysql
+    container_name: mysql8
+    ports:
+      - "3306:3306"
